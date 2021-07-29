@@ -1,0 +1,47 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+@media screen and (max-width: 700px) {
+  .container{
+    display: block;
+  }
+}
+
+.drop {
+	position: absolute;
+	bottom: 40px;
+	right: 44px;
+	width: 100px;
+}
+
+.block3{
+  position: relative;
+}
+.item4{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.block0{
+  position: relative;
+}
+.homeCanvas{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+@media screen and (max-width: 700px) {
+  .homeCanvas{
+    /* position: absolute; */
+    /* right: 0; */
+    bottom: 0;
+    /* display: none; */
+  }
+}
